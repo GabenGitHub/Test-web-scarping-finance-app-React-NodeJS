@@ -1,0 +1,17 @@
+{
+  "name": "webscrape_finance_app",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Gabor Szabo",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1",
+    "puppeteer": "^2.1.1"
+  }
+}

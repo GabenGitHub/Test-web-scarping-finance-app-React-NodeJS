@@ -1,0 +1,51 @@
+.container {
+    margin: 0.5rem;
+    padding: 0.5rem 0rem;
+    border-radius: 15px;
+    /* background-color: rgb(61, 61, 61); */
+    color: white;
+}
+
+.stock-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.stock {
+    display: flex;
+    margin: 0.1rem;
+    padding: 0.3rem;
+    width: 100%;
+    min-width: 350px;
+    max-width: 450px;
+    background-color: cornflowerblue;
+    border-radius: 3px;
+    font-size: small;
+}
+
+.stock-head {
+    text-align: left;
+}
+
+.stock-body {
+    text-align: right;
+}
+
+.stock p {
+    margin: 0 0.3rem;
+}
+
+.stock-symbol {
+    font-weight: bold;
+}
+
+.stock-up {
+    background-color: green;
+    color: white;
+}
+
+.stock-down {
+    background-color: darkred;
+    color: white;
+}
